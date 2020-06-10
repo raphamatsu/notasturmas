@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Piedra&display=swap" rel="stylesheet">
+    <title>Consultar notas</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <fieldset>
+            <legend>Consultar notas</legend>
+                <label for="">Turma</label>
+                <select name="turma">
+                    <option value="" hidden>Selecione sua turma</option>
+                    {# <option value="turmaA" id="turma">Turma A</option>
+                    <option value="turmaB" id="turma">Turma B</option> #}
+                </select>
+        </fieldset>        
+    </form>
+    <br>
+    <fieldset>
+        <legend>Quadro alunos/notas</legend>
+        <table>
+            <tr>
+                <th>ALUNO</th>
+                <th>Matemática</th>
+                <th>Ciências</th>
+                <th>Português</th>
+                <th>História</th>
+                <th>Geografia</th>
+            </tr>
+            <tr id="aluno"></tr>
+        </table>
+    </fieldset>
+</body>
+<script src="/form.js"></script>
+</html>

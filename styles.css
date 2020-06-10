@@ -1,0 +1,22 @@
+* {
+    /* font-family: 'Lexend Tera', sans-serif; */
+    font-family: 'Piedra', cursive;
+    font-weight: 50;
+}
+
+html{
+    display: flex;
+    align-items: center;
+    zoom: 150%;
+}
+
+fieldset {
+    display: flex;
+    border-radius: 8px;
+    margin: 20px;
+    background-color: rgb(134, 192, 184);
+}
+
+td {
+    align-items: center;
+}
